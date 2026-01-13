@@ -1,0 +1,7 @@
+bin\Debug\Modhul.BizTalk.PipelineComponents.CreateMessageBodyPartComp.dll
+bin\Debug\Modhul.BizTalk.PipelineComponents.CreateMessageBodyPartComp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Modhul.BizTalk.PipelineComponents.CreateMessageBodyPart.CreateMessageBodyPartComp.resources
+obj\Debug\Create Message Body Part Component.csproj.GenerateResource.Cache
+obj\Debug\Modhul.BizTalk.PipelineComponents.CreateMessageBodyPartComp.dll
+obj\Debug\Modhul.BizTalk.PipelineComponents.CreateMessageBodyPartComp.pdb

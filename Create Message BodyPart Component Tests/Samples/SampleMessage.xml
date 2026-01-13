@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+	<soap:Header>
+		<wsa:Action>http://www.logistix-software.com/GetItemMarksReturnResponse</wsa:Action>
+		<wsa:MessageID>uuid:0faddaaf-20dc-4833-b4bb-f6b68f58ae88</wsa:MessageID>
+		<wsa:RelatesTo>uuid:02a18ba4-b7fa-4466-aa2c-d83572caae33</wsa:RelatesTo>
+		<wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+		<wsse:Security>
+			<wsu:Timestamp wsu:Id="Timestamp-65fe0747-289e-48e9-a465-3c4eef49a4a3">
+				<wsu:Created>2009-03-05T16:55:59Z</wsu:Created>
+				<wsu:Expires>2009-03-05T17:00:59Z</wsu:Expires>
+			</wsu:Timestamp>
+		</wsse:Security>
+	</soap:Header>
+	<soap:Body>
+		<GetItemMarksReturnResponse xmlns="http://www.logistix-software.com/">
+			<ItemMarksReturnData xmlns="http://ucles.org.uk/schemas/ILMR" />
+		</GetItemMarksReturnResponse>
+	</soap:Body>
+</soap:Envelope>
